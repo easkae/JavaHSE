@@ -3,6 +3,9 @@ import java.time.LocalTime;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+// RUN WITH
+// java -jar .\junit-platform-console-standalone-1.9.3.jar --class-path . --scan-class-path
+
 public class ContactTest {
     @Test
     public void testContactToString() {
